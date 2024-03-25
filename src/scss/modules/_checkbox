@@ -1,1 +1,2 @@
-.checkbox { background: #ecd249; }
+.checkbox { 
+    background: #ecd249; }
