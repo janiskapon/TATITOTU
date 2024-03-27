@@ -16,8 +16,16 @@
   height: 23px;
 
   white-space: nowrap;
+  margin: 0 10 0 10px;
 }
 
 .dropdown-list {
   display: flex;
+  margin-left: 240px;
+  padding: 10px;
+}
+
+.dropdown-list img {
+  padding-top: 6px;
+  margin-left: 5px;
 }

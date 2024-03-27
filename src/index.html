@@ -7,24 +7,39 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <img src="img/TATITOTU-LOGO 1.png" alt="Logo de Tatitotu" />
-    <h1>DÉFI DE CONJUGAISON</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <button class="button blue">Exercer</button>
-          <button class="button whiteblue">Imprimer</button>
-          <button class="button yellow">Besoin d'aide?</button>
-          <button class="button green">
-            <img src="img/picto_charge.svg" alt="picto de nuage" />Charger mon
-            défi
-          </button>
-          <form>
-            <label for="code8"></label>
-            <input class="textfield" type="text" id="code8" name="code8" />
-          </form>
+    <header>
+      <img src="img/TATITOTU-LOGO 1.png" alt="Logo de Tatitotu" />
+      <h1>DÉFI DE CONJUGAISON</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="l-center">
+              <button class="button blue">Exercer</button>
+              <button class="button whiteblue">Imprimer</button>
+            </div>
+            <div class="l-right">
+              <button class="button yellow">Besoin d'aide?</button>
+            </div>
+            <div class="l-center">
+              <form>
+                <label for="code8"></label>
+                <input
+                  class="textfield-one"
+                  type="text"
+                  id="code8"
+                  name="code8"
+                />
+              </form>
+              <button class="button green">
+                <img src="img/picto_charge.svg" alt="picto de nuage" />Charger
+                mon défi
+              </button>
+            </div>
+          </div>
         </div>
       </div>
+    </header>
+    <main>
       <div class="row">
         <div class="col-12">
           <div class="dropdown-list">
@@ -69,11 +84,18 @@
           <div class="card">
             <h2>Mes verbes</h2>
             <div class="card-content">
-              <p>Tout supprimer (6)</p>
+              <div class="textred">
+                <p>Tout supprimer (6)</p>
+              </div>
               <form>
                 <label for="code8"></label>
                 <br />
-                <input class="textfield" type="text" id="code8" name="code8" />
+                <input
+                  class="textfield-two"
+                  type="text"
+                  id="code8"
+                  name="code8"
+                />
               </form>
             </div>
           </div>
@@ -237,7 +259,12 @@
               </label>
               <form>
                 <label for="code8"></label>
-                <input class="textfield" type="text" id="code8" name="code8" />
+                <input
+                  class="textfield-three"
+                  type="text"
+                  id="code8"
+                  name="code8"
+                />
               </form>
               <label class="checkbox">
                 <input type="checkbox" name="verbe" />
@@ -301,6 +328,8 @@
           </div>
         </div>
       </div>
+    </main>
+    <footer>
       <div class="row">
         <div class="col-12">
           <div class="footer-background">
@@ -312,7 +341,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </footer>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
