@@ -53,6 +53,12 @@ h1 {
   text-align: center;
 }
 
+h1 span {
+  background: white;
+  transform: translateY(2px);
+  display: inline-block;
+}
+
 h3 {
   text-transform: uppercase;
   text-decoration: underline;
