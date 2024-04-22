@@ -1,6 +1,7 @@
 .logofooter {
   display: flex;
   justify-content: center;
+  padding-top: 10px;
 }
 
 .footer-background {
@@ -8,5 +9,7 @@
 }
 
 .logo-footer-inner {
-  background-color: aliceblue;
+  background-color: white;
+  width: 200px;
+  padding-top: 20px;
 }

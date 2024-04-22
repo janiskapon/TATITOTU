@@ -1,0 +1,22 @@
+.textred {
+  color: red;
+  text-decoration: underline;
+}
+
+.textblue {
+  color: #479ede;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+.textredtwo {
+  color: red;
+  text-decoration: underline;
+  text-align: right;
+}
+
+.textrow {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
